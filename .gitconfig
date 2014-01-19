@@ -1,0 +1,9 @@
+[user]
+	name = ataube
+	email = andreas.taube@gmx.de
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = /Users/ataube/.gitignore_global
