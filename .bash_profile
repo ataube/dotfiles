@@ -30,6 +30,17 @@ source ~/git-completion.bash
 #PS1='\u@\h: \w \n\$'
 alias ls='ls -Gla'
 
+## get rid of command not found ##
+alias cd..='cd ..'
+ 
+## a quick way to get out of current directory ##
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
 #### TAKEN FROM PAUL IRISH's dofiles ####
 # @gf3’s Sexy Bash Prompt, inspired by “Extravagant Zsh Prompt”
 # Shamelessly copied from https://github.com/gf3/dotfiles
